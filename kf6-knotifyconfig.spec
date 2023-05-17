@@ -30,6 +30,7 @@ BuildRequires: cmake(KF6Config)
 BuildRequires: cmake(KF6I18n)
 BuildRequires: cmake(KF6KIO)
 BuildRequires: cmake(KF6Notifications)
+BuildRequires: cmake(KF6XmlGui)
 BuildRequires: pkgconfig(libcanberra)
 Requires: %{libname} = %{EVRD}
 
