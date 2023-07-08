@@ -32,6 +32,8 @@ BuildRequires: cmake(KF6KIO)
 BuildRequires: cmake(KF6Notifications)
 BuildRequires: cmake(KF6XmlGui)
 BuildRequires: pkgconfig(libcanberra)
+# Just to prevent plasma5 xdg-desktop-portal-kde
+BuildRequires: plasma6-xdg-desktop-portal-kde
 Requires: %{libname} = %{EVRD}
 
 %description
