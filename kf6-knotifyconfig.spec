@@ -1,6 +1,6 @@
 %define libname %mklibname KF6NotifyConfig
 %define devname %mklibname KF6NotifyConfig -d
-%define git 20230918
+%define git 20230924
 
 Name: kf6-knotifyconfig
 Version: 5.240.0
