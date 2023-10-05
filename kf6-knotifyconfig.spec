@@ -1,6 +1,6 @@
 %define libname %mklibname KF6NotifyConfig
 %define devname %mklibname KF6NotifyConfig -d
-%define git 20230927
+%define git 20231005
 
 Name: kf6-knotifyconfig
 Version: 5.240.0
@@ -79,7 +79,6 @@ Configuration dialog for desktop notifications
 %files -n %{devname}
 %{_includedir}/KF6/KNotifyConfig
 %{_libdir}/cmake/KF6NotifyConfig
-%{_qtdir}/mkspecs/modules/qt_KNotifyConfig.pri
 %{_qtdir}/doc/KF6NotifyConfig.*
 
 %files -n %{libname}
