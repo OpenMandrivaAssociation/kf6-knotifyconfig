@@ -5,7 +5,7 @@
 #define git 20231103
 
 Name: kf6-knotifyconfig
-Version: 5.248.0
+Version: 5.249.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/knotifyconfig/-/archive/master/knotifyconfig-master.tar.bz2#/knotifyconfig-%{git}.tar.bz2
